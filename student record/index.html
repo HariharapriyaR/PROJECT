@@ -3,16 +3,76 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Student Record Form</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>Hariharapriya's Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      background-color: #007acc;
+      color: white;
+      padding: 2rem 1rem;
+    }
+    h1 {
+      margin: 0;
+    }
+    main {
+      padding: 2rem;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      background-color: white;
+      margin: 1rem auto;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      width: 80%;
+      max-width: 500px;
+    }
+    a {
+      text-decoration: none;
+      color: #007acc;
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      margin-top: 2rem;
+      padding: 1rem;
+      background-color: #eee;
+    }
+  </style>
 </head>
 <body>
-  <h1>Student Record Form</h1>
-  <form onsubmit="return validateForm()">
-    <input type="text" id="name" placeholder="Student Name" required />
-    <input type="number" id="age" placeholder="Age" required />
-    <button type="submit">Submit</button>
-  </form>
-  <script src="script.js"></script>
+  <header>
+    <h1>Hariharapriya R</h1>
+    <p>Web Developer | GitHub Projects</p>
+  </header>
+
+  <main>
+    <h2>My Projects</h2>
+    <ul>
+      <li><a href="calculator/index.html" target="_blank">Calculator App</a></li>
+      <li><a href="student-record/index.html" target="_blank">Student Record System</a></li>
+      <li><a href="personal-portfolio/index.html" target="_blank">My Portfolio Website</a></li>
+    </ul>
+  </main>
+
+  <footer>
+    <p>Connect with me: 
+      <a href="mailto:r.hariharapriya@gmail.com">Email</a> | 
+      <a href="https://www.linkedin.com/in/hariharapriya-ramachandran-32a913119" target="_blank">LinkedIn</a> | 
+      <a href="https://github.com/HariharapriyaR" target="_blank">GitHub</a>
+    </p>
+  </footer>
 </body>
 </html>
